@@ -689,13 +689,13 @@ require_once "./../ficha/aconfig_ficha.php";
         <div class="attr font1">
             <span class="for"><?= $forca ?></span>
             <span class="agi"><?= $agilidade ?></span>
-            <span class="int"><?= $intelecto ?></span>
-            <span class="vig"><?= $vigor ?></span>
+            <span class="rac"><?= $raciocinio ?></span>
+            <span class="sau"><?= $saude ?></span>
             <span class="pre"><?= $presenca ?></span>
         </div>
         <div class="Saude font4">
             <span class="PV"><?= $pv ?></span>
-            <span class="PE"><?= $pe ?></span>
+            <span class="PO"><?= $po ?></span>
             <span class="SAN"><?= $san ?></span>
             <span class="passiva"><?= $passiva ?></span>
             <span class="bloqueio"><?= $fortitude ?></span>
@@ -735,11 +735,19 @@ require_once "./../ficha/aconfig_ficha.php";
             <span class="pericia pontaria"><?= $pontaria ?></span>
             <span class="pericia profissao"><?= $profissao ?></span>
             <span class="pericia reflexos"><?= $reflexos ?></span>
-            <span class="pericia religiao"><?= $religiao ?></span>
+            <span class="pericia culinaria"><?= $culinaria ?></span>
             <span class="pericia sobrevivencia"><?= $sobrevivencia ?></span>
             <span class="pericia tatica"><?= $tatica ?></span>
             <span class="pericia tecnologia"><?= $tecnologia ?></span>
             <span class="pericia vontade"><?= $vontade ?></span>
+		<span class="pericia mecanica"><?= $mecanica ?></span>
+		<span class="pericia historia"><?= $historia ?></span>
+		<span class="pericia matematica"><?= $matematica ?></span>
+		<span class="pericia geografia"><?= $geografia ?></span>
+		<span class="pericia fotografia"><?= $fotografia ?></span>
+		<span class="pericia linguanativa"><?= $linguanativa ?></span>
+		<span class="pericia linguaestrangeira"><?= $linguaestrangeira ?></span>
+		
         </div>
         <div class="Armas">
 			<?php
