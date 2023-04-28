@@ -11,7 +11,7 @@ $id = cleanstring($_GET["convite"]);
 <html lang="br" data-bs-theme="<?= $_COOKIE["theme"] ?>">
 <head>
     <?php require_once "./../../../includes/head.html"; ?>
-    <title>Criar Personagem - FichasOP</title>
+    <title>Criar Personagem - FalhasRPG</title>
 </head>
 <body class="">
 <?php require_once "./../../../includes/top.php"; ?>
