@@ -389,7 +389,7 @@ require_once "./../ficha/aconfig_ficha.php";
             margin-top: 1620%;
         }
 
-        .religiao {
+        .culinaria {
             margin-top: 1694%;
         }
 
@@ -740,13 +740,6 @@ require_once "./../ficha/aconfig_ficha.php";
             <span class="pericia tatica"><?= $tatica ?></span>
             <span class="pericia tecnologia"><?= $tecnologia ?></span>
             <span class="pericia vontade"><?= $vontade ?></span>
-		<span class="pericia mecanica"><?= $mecanica ?></span>
-		<span class="pericia historia"><?= $historia ?></span>
-		<span class="pericia matematica"><?= $matematica ?></span>
-		<span class="pericia geografia"><?= $geografia ?></span>
-		<span class="pericia fotografia"><?= $fotografia ?></span>
-		<span class="pericia linguanativa"><?= $linguanativa ?></span>
-		<span class="pericia linguaestrangeira"><?= $linguaestrangeira ?></span>
 		
         </div>
         <div class="Armas">
