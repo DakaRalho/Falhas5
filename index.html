@@ -1,37 +1,51 @@
-<?php
-require_once "./config/includes.php";
-
-if (isset($_POST["status"])) {
-	if ($_POST["status"] == 'roll') {
-		$dado = cleanstring($_POST["dado"], 50);
-		$dano = intval(minmax($_POST["dano"], 0, 1));
-		if (ClearRolar($dado)) {
-			$data = RolarMkII($dado, $dano);
-			$data["success"] = true;
-		} else {
-			$data = ClearRolar($dado, true);
-		}
-		$data["dado"] = $dado;
-		echo json_encode($data);
-		exit;
-	}
-}
-?>
 <!doctype html>
 <html lang="pt-BR" data-bs-theme="<?=$_SESSION["theme"]?>">
 <head>
     <!-- Required meta tags -->
-    <title>Fichas Op The Other Side</title>
+    <title>Fichas Ordem Paranormal</title>
     <?php require_once './includes/head.html'; ?>
     <style>
-        /* Estilos personalizados aqui, se necessário */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+        }
+        
+        .container {
+            text-align: center;
+            padding-top: 20vh;
+        }
+        
+        h1 {
+            font-size: calc(5vh + 5vw);
+            color: #333;
+        }
+        
+        p {
+            font-size: 1.5rem;
+            color: #666;
+        }
+        
+        .btn {
+            font-size: 1.2rem;
+            padding: 10px 20px;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        
+        .btn:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body class="">
     <?php require_once RootDir . "includes/top.php"; ?>
     <main style="width: calc(100vw - 5px); height: calc(100vh - 45px)" class="first">
         <div class="container position-relative">
-            <h1 class="text-center fade-in fichasop" style="font-size: calc(5vh + 5vw); padding-top: 20vh">
+            <h1 class="text-center fade-in fichasop">
                 <span class="font6">F</span><span class="font6">i</span><span class="font6">c</span><span class="font6">h</span class="font6"><span class="font6">a</span><span class="font6">s</span><span class="font6">O</span><span class="font6">P</span>
             </h1>
             <p class="fs-5 text-center mb-0">O SITE DE FICHAS PARA OP OTHER SIDE</p>
