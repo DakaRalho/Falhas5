@@ -252,26 +252,9 @@ Sirva acompanhado de carne-de-sol frita ou assada.
         }
 
     </style>
-</head>
-<body class="">
-<?php require_once RootDir . "includes/top.php"; ?>
-<main style="width: calc(100vw - 5px); height: calc(100vh - 45px)" class="first">
-    <div class="container position-relative">
-        <div class="row row-cols-sm-2 row-cols-1 justify-content-between g-2" style="padding-top: calc( 20vh - 5vw )">
-            <div class="align-self-center text-center">
-                <h1 class="text-center fichasop">Está pronto!</h1>
-                <p>Aplicativo está na fase final! já é possível utilizar o aplicativo.</p>
-                <a href='https://play.google.com/store/apps/details?id=com.fichasop.app&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'>
-                    <img style="width: 120px" alt='Disponível no Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/pt-br_badge_web_generic.png'/>
-                </a><br>
-                <small>IOS ou outros? Temos uma solução <a href="https://m.fichasop.com">Aqui</a></small>
-                <br>
-            </div>
-            <div>
-                <h1 class="text-center fade-in fichasop" style="font-size: calc(5vh + 5vw); ">
-                    <span class="font6">F</span><span class="font6">i</span><span class="font6">c</span><span class="font6">h</span class="font6"><span class="font6">a</span><span class="font6">s</span><span class="font6">O</span><span class="font6">P</span>
+
                 </h1>
-                <p class="fs-5 text-center mb-0">O SITE DE FICHAS PARA ORDEM PARANORMAL RPG</p>
+                <p class="fs-5 text-center mb-0">O SITE DE FICHAS PARA OP THE OTHER SIDE HOMEBREW</p>
                 <p class="fs-5 text-center">Oque está esperando? Clique abaixo e começe a criar sua ficha!</p>
                 <div class="w-100 text-center">
 					<?php if (!isset($_SESSION["UserID"])) { ?>
